@@ -7,6 +7,7 @@ function setup() {
   createSprite(400, 200, 50, 50);
   bullet=createSprite(50,200,50,50);
   wall=createSprite(400,200,60,height/2)
+  wall.shapeColor(black)
   bullet.velocityX = speed;
 }
 
