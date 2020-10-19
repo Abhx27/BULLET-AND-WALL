@@ -18,6 +18,13 @@ wall = createSprite(1500,200,50,50);
   if(speed > 180){
     car.shapeColor=color(255,0,0);
   } 
+    if(wall = 70){
+    car.shapeColor=color(255, 0, 0);
+    }
+  
+      if(wall = 40){
+    car.shapeColor=color(0, 255, 0);
+    }
 }
 
 function draw() {
